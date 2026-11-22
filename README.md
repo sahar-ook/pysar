@@ -6,8 +6,6 @@ Pysar (PY-sar, писар: Ukrainian for "scribe") is a speech-to-text tool for 
 
 I think and work in two languages at once: a Ukrainian sentence with "workflow", "pull request" and a product name in the middle. The dictation tools I tried pick one language per take, so half of every sentence came back wrong. Pysar is the tool I wanted: press a key, talk the way I actually talk, get clean text where the cursor is.
 
-I'm a product manager, not an engineer. Pysar was built with Claude Code, and every engine choice below came from a measurement, not a guess.
-
 ## What it does
 
 - **Press, speak, press.** Right `⌘` starts a take, right `⌘` again ends it, and the text is pasted where the cursor was. `⌥⇧Space` does the same for long takes.
