@@ -1,0 +1,18 @@
+# Read-aloud reference, the first fifteen of reference2.txt. One sentence per take, in this order. Invented sentences;
+# the names and companies are made up.
+# Category after the tab: terms, english, numbers, names, correction, list, question, short, pause.
+Підключи MCP-сервер до Linear і перевір, чи workflow створює задачі автоматично.	terms
+Поясни, що таке rate limit у Gemini API і що буде, коли він закінчиться.	english
+Перенеси дзвінок з Тарасом на чотирнадцяте листопада, о пів на п'яту.	numbers
+У Figma онови checkout flow і скинь мені посилання в Slack до вівторка.	terms
+Перевір churn і activation rate за останні дев'яносто днів в Amplitude.	terms
+Я хочу, щоб dashboard показував active users окремо від free plan.	english
+Створи клієнта Northwind Academy і проєкт Bluebird Studio.	names
+Скільки коштує хвилина аудіо в Gemini Transcribe Live, якщо говорити дві години на день?	numbers
+Запиши в Notion: зустріч з Оксаною у вівторок, ні, вибач, у п'ятницю об одинадцятій.	correction
+Can you review the pull request and tell me if the tests are passing?	english
+Зроби MD-файл з action items і поклади його в Obsidian vault.	terms
+Мій тариф Lumen Plus закінчується, нагадай продовжити його в застосунку Brightline.	names
+Перше — оновити changelog, друге — запустити тести, третє — зробити deploy на Vercel.	list
+Не забудь, що в грудні в мене дедлайн по roadmap і quarterly review.	terms
+Порівняй Parakeet, WhisperKit і Soniox на однакових записах і скажи, хто швидший.	names

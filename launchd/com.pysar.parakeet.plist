@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.pysar.parakeet</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>__VENV__/bin/python</string>
+    <string>__REPO__/server/parakeet_server.py</string>
+    <string>--host</string>
+    <string>127.0.0.1</string>
+    <string>--port</string>
+    <string>50062</string>
+  </array>
+
+  <!-- launchd starts with a bare PATH; parakeet shells out to ffmpeg to decode
+       audio, and without Homebrew on PATH every request fails with a message
+       that looks like a missing install. HF_HUB_OFFLINE keeps startup off the
+       network once the weights are cached. -->
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/bin:/bin</string>
+    <key>HF_HUB_OFFLINE</key>
+    <string>1</string>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>__HOME__/.pysar/parakeet.log</string>
+  <key>StandardErrorPath</key>
+  <string>__HOME__/.pysar/parakeet.log</string>
+
+  <key>ProcessType</key>
+  <string>Interactive</string>
+</dict>
+</plist>

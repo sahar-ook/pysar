@@ -1,0 +1,11 @@
+# English read-aloud reference, 2026-10-20. One sentence per take, in this order.
+Can you summarize the main points from yesterday's product review meeting?	en
+Please move the onboarding experiment to next sprint and update the Jira ticket.	en
+The conversion rate dropped by twelve percent after we changed the pricing page.	en
+Send the Figma link to Marta and ask her to review the new checkout flow.	en
+I think we should run an A/B test before we ship this to all users.	en
+Remind me to call the accountant on Thursday at three thirty.	en
+What's the difference between retention and churn in our Amplitude dashboard?	en
+Draft a short reply to the client saying we need two more days for the QA.	en
+Let's schedule a one-on-one with the design team for Monday morning.	en
+Add Supabase, Vercel and GitHub to the list of tools we pay for every month.	en

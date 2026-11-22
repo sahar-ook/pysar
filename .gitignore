@@ -1,0 +1,11 @@
+.DS_Store
+*.log
+/run/
+config.lua
+.env
+/bin/
+__pycache__/
+.env*
+*.wav
+request.json
+.venv/

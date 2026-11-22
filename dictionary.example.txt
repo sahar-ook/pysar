@@ -1,0 +1,21 @@
+# Терміни, імена й назви, які Whisper інакше перекрутить.
+# Один рядок — один запис. Рядки з # ігноруються.
+# Файл читається на кожну надиктовку, перезавантажувати нічого не треба.
+#
+# Whisper бере це як підказку про очікувану лексику, тож тримай список
+# коротким і релевантним — кількадесят записів працюють краще за сотні.
+
+Pysar
+Northwind Academy
+Bluebird Studio
+Lumen Plus
+Brightline
+Notion
+Figma
+Supabase
+Amplitude
+onboarding
+workflow
+deployment
+product manager
+stakeholder
